@@ -1,4 +1,4 @@
-#Seguir preferencialmente o grupo de práticas extensionistas(mesmo projeto e grupo).
+Seguir preferencialmente o grupo de práticas extensionistas(mesmo projeto e grupo).
 
 Estrutura da Página
 Header:
