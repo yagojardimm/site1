@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maricá Service</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- Font Awesome for icons -->
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo-container">
+            <div class="hamburger-menu" onclick="toggleMenu()">&#9776;</div>
+            <h1>Maricá Service</h1>
+            <img class="logo" src="maricaservice_logo.png" alt="Maricá Service Logo">
+        </div>
+        <nav>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contents/seguranca.html">Informações</a>
+                    <ul>
+                        <li><a href="contents/nossamissao.html">Nossa Missão</a></li>
+                        <li><a href="contents/comofunciona.html">Como Funciona</a></li>
+                        <li><a href="contents/contato.html">Contato</a></li>
+                    </ul>
+                </li>
+                <li><a href="contents/seguranca.html">Segurança</a></li>
+                <li><a href="https://play.google.com/store/apps">Baixe nosso aplicativo</a></li>
+                <li><a href="login/login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Main Section -->
+    <main>
+        <!-- Carousel de Imagens -->
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 4</div>
+                <img src="imagens/aperto-de-mao-feliz-do-reparador-de-automoveis-com-o-cliente-em-uma-oficina.jpg" style="width:100%">
+                <div class="text">Imagem 1</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 4</div>
+                <img src="imagens/cliente-satisfeito-apertando-as-maos-com-mecanico-de-automoveis-feminino-em-uma-oficina.jpg" style="width:100%">
+                <div class="text">Imagem 2</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 4</div>
+                <img src="imagens/homem-sorridente-pintando-as-paredes-de-sua-nova-casa.jpg" style="width:100%">
+                <div class="text">Imagem 3</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 4</div>
+                <img src="imagens/mulher-em-uma-garagem-de-carro-recebendo-servico-mecanico-o-mecanico-trabalha-sob-o-capo-do-carro (1).jpg" style="width:100%">
+                <div class="text">Imagem 4</div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+
+        <!-- Sub Section com três colunas -->
+        <section class="sub-section">
+            <div class="column">
+                <h2>Título 1</h2>
+                <p>Parágrafo 1</p>
+            </div>
+            <div class="column">
+                <h2>Título 2</h2>
+                <p>Parágrafo 2</p>
+            </div>
+            <div class="column">
+                <h2>Título 3</h2>
+                <p>Parágrafo 3</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-icons">
+            <a href="#" class="tooltip">
+                <i class="fab fa-facebook"></i>
+                <span class="tooltiptext">Facebook</span>
+            </a>
+            <a href="#" class="tooltip">
+                <i class="fab fa-twitter"></i>
+                <span class="tooltiptext">Twitter</span>
+            </a>
+            <a href="#" class="tooltip">
+                <i class="fab fa-instagram"></i>
+                <span class="tooltiptext">Instagram</span>
+            </a>
+            <a href="#" class="tooltip">
+                <i class="fab fa-linkedin"></i>
+                <span class="tooltiptext">LinkedIn</span>
+            </a>
+        </div>
+        <p>2023 Maricá Service, All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
